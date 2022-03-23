@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     text-align: center;
 }
 .image{
@@ -36,12 +36,18 @@ body{
 }
 
 .title{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 .description{
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--Grayish-gblue);
     font-weight: 400;
 }
 
+.card-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+    gap: 1em;
+}
